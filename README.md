@@ -3,7 +3,7 @@
  Advanced framewise object detection pipeline for **industrial inspection videos**, leveraging **YOLOv8s and YOLOv5s** fine-tuned on custom CVAT annotations with automated preprocessing and clean dataset management for scalable training and inference.
 
 ---
-
+ 
 ## Project Overview
 
 This project builds a **video object detection pipeline** for **industrial part placement inspection** using a **single annotated video (~2390 frames)** labeled frame-by-frame on **CVAT**. The pipeline detects:
