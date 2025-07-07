@@ -1,4 +1,4 @@
-# VC Video Object Detection Pipeline
+# Industrial Part Placement Inspection Pipeline
 
  Advanced framewise object detection pipeline for **industrial inspection videos**, leveraging **YOLOv8s and YOLOv5s** fine-tuned on custom CVAT annotations with automated preprocessing and clean dataset management for scalable training and inference.
 
@@ -33,15 +33,33 @@ using **YOLOv8s and YOLOv5s** for experimentation, achieving high-speed inferenc
 - ultralytics: latest (pip install ultralytics --upgrade) <br>
 - GPU: Trained on Kaggle T4 GPU environment <br>
 
+## Preview
+
+[![Watch the demo](https://img.youtube.com/vi/XmGlVwR4Vd0/hqdefault.jpg)](https://youtube.com/shorts/XmGlVwR4Vd0) <br>
+ps: click on the video to watch the full short 
+
 <h2> Workflow</h2>
 
-<p><strong>1️⃣ Preprocessing</strong><br>
+<p><strong>Preprocessing</strong><br>
 Extract labeled frames using OpenCV scripts.<br>
 Organize dataset into YOLO <code>images/train</code>, <code>images/val</code>, <code>labels/train</code>, <code>labels/val</code>.
 </p>
 
-<p><strong>2️⃣ Training</strong><br>
+<p><strong> Training</strong><br>
 Fine-tune <code>yolov8s.pt</code> using <code>ultralytics</code> on Kaggle GPU with:<br>
 <code>epochs=100</code>, <code>batch=8</code>, <code>imgsz=640</code><br>
 Advanced augmentations: RandAugment, Mosaic, Mixup, Perspective, HSV, Flip, Scale.
 </p>
+<br>
+<h3>YOLOv8s Results</h3>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/446ab949-a6d2-4e91-95a6-50dcfd4819e4" width="500">
+</p>
+
+<h3>YOLOv5s Results</h3>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ceb8ccd7-633e-45a0-9c70-98dbabf9e7ad" width="500">
+</p>
+
