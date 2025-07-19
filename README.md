@@ -35,7 +35,10 @@ using **YOLOv8s and YOLOv5s** for experimentation, achieving high-speed inferenc
 
 ## Preview
 
-[![Watch the demo](https://img.youtube.com/vi/XmGlVwR4Vd0/hqdefault.jpg)](https://youtube.com/shorts/XmGlVwR4Vd0) <br>
+<a href="https://youtube.com/shorts/XmGlVwR4Vd0" target="_blank">
+  <img src="https://github.com/user-attachments/assets/81d8fe30-7f7b-47f8-9332-ae9e65f3818f" alt="Watch the demo" width="300"/>
+</a>
+
 ps: click on the video to watch the full short 
 
 <h2> Workflow</h2>
