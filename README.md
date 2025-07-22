@@ -39,7 +39,7 @@ using **YOLOv8s and YOLOv5s** for experimentation, achieving high-speed inferenc
   <img src="https://github.com/user-attachments/assets/81d8fe30-7f7b-47f8-9332-ae9e65f3818f" alt="Watch the demo" width="300"/>
 </a>
 
-ps: click on the video to watch the full short 
+ps: click on this preview to watch the full video
 
 <h2> Workflow</h2>
 
